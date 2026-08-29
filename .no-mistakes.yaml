@@ -1,0 +1,9 @@
+# Local Test is intentionally empty: the Test step is targeted validation of the
+# requested intent (template rendering checks, quick script/scaffold checks),
+# never a full --test-tags Docker walk. This template repo ships release.yml and
+# render.yml workflows but no broad test workflow; when a new project is
+# instantiated from this template it adds .github/workflows/test.yml and broad
+# regression lives there, so a full-suite override here would duplicate CI and
+# defeat the targeted Test contract.
+commands:
+  test: ""
