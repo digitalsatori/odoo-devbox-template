@@ -1,4 +1,3 @@
-# Odoo 项目 no-mistakes 配置（对齐 firstmate/no-mistakes dogfood 模式）。
 # Local Test is intentionally empty: the Test step is targeted validation of the
 # requested intent (template rendering checks, quick script/scaffold checks),
 # never a full --test-tags Docker walk. This template repo ships release.yml and
