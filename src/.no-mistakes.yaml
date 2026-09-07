@@ -1,0 +1,7 @@
+# Local Test is intentionally empty: the Test step is targeted validation of the
+# requested intent (visual evidence for UI/asset changes, focused tests for
+# logic, quick XML/view checks), never a full --test-tags Docker walk. Broad
+# regression lives in remote CI when present. A full-suite override here would
+# duplicate CI and defeat the targeted Test contract.
+commands:
+  test: ""
